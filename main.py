@@ -12,9 +12,11 @@ import re
 line = 2
 video_quality = "720p"
 
-# your path here
+# your path here and video max size in float
 path = "E:/Trabajo/Trailers"
 min_video_size = 28.00
+
+# default format(please dont edit this)
 extension = ".mp4"
 
 
