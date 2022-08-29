@@ -1,12 +1,3 @@
----
-title: YoutubeDownloaderAutomate
-updated: 2022-08-29 05:13:35Z
-created: 2022-08-29 05:00:11Z
-latitude: 15.38434150
-longitude: -87.80584020
-altitude: 0.0000
----
-
 **Massive youtube links downloader**
 
 this script downloads as many links as you provide
@@ -38,6 +29,7 @@ you can control the quality of the video with the following variable(720p defaul
 `video_quality = "1080p"`
 
 finally you can choose the maximum number of minutes you want to download, by default 28 mins, remember to leave the value in the format "00.00":
+
 `path = "min_video_size = 28.00"`
 
 enjoy.
