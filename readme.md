@@ -30,6 +30,7 @@ you need to add the links in the links.xls file from line 2 and add the path to 
 `path = "your_path_here"`
 
 example with my path:
+
 `path = "E:/Trabajo/Trailers"`
 
 you can control the quality of the video with the following variable(720p default), for example to download at full hd you would set it to 1080p:
