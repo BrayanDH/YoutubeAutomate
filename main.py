@@ -1,11 +1,14 @@
 
 import shutil
 import openpyxl
-from pytube import YouTube
+
 from pytube.cli import on_progress
 from hurry.filesize import size
 import os
 import re
+
+
+from pytube import YouTube
 
 
 # you only need specific your final quality, 720p or 1080p, and the line to you need start from excel archive, finally the archive path
@@ -13,7 +16,7 @@ line = 2
 video_quality = "720p"
 
 # your path here and video max size in float
-path = "E:/Trabajo/Trailers"
+path = r"E:/Trabajo/Trailers"
 min_video_size = 28.00
 
 # default format(please dont edit this)
