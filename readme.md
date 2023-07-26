@@ -1,20 +1,10 @@
-**Massive youtube links downloader**
+# Massive youtube links downloader
 
-this script downloads as many links as you provide
+This script downloads as many links as you provide
 
 you need to have the following dependencies installed:
 
-openpyxl:
-
-`pip install openpyxl`
-
-pytube:
-
-`pip install pytube`
-
-hurry filesize:
-
-`pip install hurry.filesize`
+`pip install -r requirements.txt`
 
 you need to add the links in the links.xls file from line 2 and add the path to the folder where you want the videos to be downloaded.
 
