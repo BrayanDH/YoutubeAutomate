@@ -28,8 +28,8 @@ video_quality = "1080p"
 
 finally you can choose the maximum number of minutes you want to download, by default 28 mins, remember to leave the value in the format "00.00":
 
-```path = "min_video_size = 28.00"
-
+```
+path = "min_video_size = 28.00"
 ```
 
 enjoy.
