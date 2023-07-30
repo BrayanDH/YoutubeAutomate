@@ -1,35 +1,55 @@
-# Massive youtube links downloader
+# Massive YouTube Links Downloader
 
-This script downloads as many links as you provide
+## Description
 
-you need to have the following dependencies installed:
+Massive YouTube Links Downloader is a powerful script that allows you to download as many YouTube videos as you provide. It simplifies the process of bulk video downloading from YouTube, making it easy and efficient.
 
-```
-pip install -r requirements.txt
-```
+## How to Use
 
-you need to add the links in the links.xls file from line 2 and add the path to the folder where you want the videos to be downloaded.
+1. Install Dependencies:
 
-```
-path = "your_path_here"
-```
+   Before using the script, ensure you have the required dependencies installed. Run the following command in your terminal:
 
-example with my path:
+   ```
+   pip install -r requirements.txt
+   ```
 
-```
-path = "E:/Trabajo/Trailers"
-```
+2. Prepare the Links:
 
-you can control the quality of the video with the following variable(720p default), for example to download at full hd you would set it to 1080p:
+   Add the YouTube links you want to download in the `links.xls` file, starting from line 2. Make sure to provide one link per row, starting from the second row.
 
-```
-video_quality = "1080p"
-```
+3. Set the Download Folder:
 
-finally you can choose the maximum number of minutes you want to download, by default 28 mins, remember to leave the value in the format "00.00":
+   Specify the path to the folder where you want the downloaded videos to be saved. Modify the `path` variable in the script:
 
-```
-path = "min_video_size = 28.00"
-```
+   ```python
+   path = "your_path_here"
+   ```
 
-enjoy.
+   For example, if you want to save the videos in the folder `E:/Trabajo/Trailers`, set the `path` as follows:
+
+   ```python
+   path = "E:/Trabajo/Trailers"
+   ```
+
+4. Choose Video Quality:
+
+   You can control the quality of the downloaded videos using the `video_quality` variable. By default, it is set to download videos in 720p. To download videos in Full HD (1080p), set the `video_quality` as follows:
+
+   ```python
+   video_quality = "1080p"
+   ```
+
+5. Set Maximum Duration:
+
+   You can also choose the maximum duration of the videos you want to download. By default, it is set to 28 minutes. Make sure to format the value in the `"00.00"` format:
+
+   ```python
+   max_duration = "28.00"
+   ```
+
+6. Run the Script:
+
+   Execute the script, and it will start downloading the YouTube videos based on the provided links, saving them in the specified folder.
+
+Enjoy downloading your YouTube videos effortlessly with Massive YouTube Links Downloader!
